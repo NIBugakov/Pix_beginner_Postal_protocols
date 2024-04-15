@@ -123,14 +123,14 @@
           <PropertyValue z:Id="i18">
             <PropertyName>Password</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>in_str_passYandex</_expression>
+            <_expression></_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
           <PropertyValue z:Id="i19">
             <PropertyName>SecurePassword</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression></_expression>
+            <_expression>in_str_passYandex</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -390,7 +390,7 @@
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>in_str_passYandex</Name>
-      <TypeString>System.String</TypeString>
+      <TypeString>System.Security.SecureString</TypeString>
     </Parameter>
     <Parameter z:Id="i48">
       <DefaultValueExpression></DefaultValueExpression>
